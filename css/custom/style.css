@@ -1,0 +1,32 @@
+.nav-active {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-link {
+  transition: color 0.3s;
+}
+.c-link:hover, .c-link:focus {
+  color: #0049ff;
+  outline: none;
+}
+
+input,
+textarea {
+  transition: border 0.3s, color 0.3s;
+}
+input:valid,
+textarea:valid {
+  border-color: #0049ff;
+  color: #0049ff;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0049ff;
+}
+
+.c-rounded {
+  border-radius: 8px;
+}/*# sourceMappingURL=style.css.map */

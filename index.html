@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth scroll-pt-[80px]">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Photography</title>
+    <meta name="description" content="Portrait Photography">
+    <meta name="keywords" content="Portrait, Photography, Portrait Photography">
+    <meta name="author" content="Cichy">
+    <meta name="og:title" content="Portrait Photography" />
+    <meta name="og:description" content="Portrait Photography" />
+    <meta property="og:site_name" content="Portrait Photography" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/custom/style.css">
+</head>
+
+<body class="bg-[#000] ">
+    <nav class="fixed right-0 left-0 bg-black border-gray-200 bg-gray-50 text-white z-50">
+        <div class="container flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="group flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    class="stroke-mainBlue h-8 mr-1">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                </svg>
+                <span class=" self-center text-2xl font-semibold whitespace-nowrap"><span
+                        class="group-hover:text-mainBlue transition-[color] duration-[0.3s]">P</span>ortra<span
+                        class="group-hover:text-mainBlue transition-[color] duration-[0.3s]">IT</span></span>
+            </a>
+            <button type="button"
+                class="c-nav__btn inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:scale-110"
+                aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <svg class=" w-16 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="c-nav hidden w-full md:block md:w-auto">
+                <ul class="c-nav__items flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0
+                md:border-0 md:bg-transparent uppercase">
+                    <li>
+                        <a href="#aboutme"
+                            class="c-nav__item c-link block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:border-0 md:p-0 text-mainBlue">about
+                            me</a>
+                    </li>
+                    <li>
+                        <a href="#workshop"
+                            class="c-nav__item c-link block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:border-0 md:p-0">workshop</a>
+                    </li>
+                    <li>
+                        <a href="#methodology"
+                            class="c-nav__item c-link block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:border-0 md:p-0 ">methodology</a>
+                    </li>
+                    <li>
+                        <a href="#biography"
+                            class="c-nav__item c-link block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:border-0 md:p-0">biography</a>
+                    </li>
+                    <li>
+                        <a href="#contact"
+                            class="c-nav__item c-link block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:border-0 md:p-0">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="px-5 py-32 bg-heroImage bg-cover bg-center">
+        <div class="container flex flex-col justify-center md:relative text-white">
+            <div class="md:absolute md:bottom-5 md:w-1/2 lg:w-full">
+                <h1 class="text-5xl leading-[55px] lg:text-6xl">Portrait Photography</h1>
+                <p class="py-5 text-2xl lg:text-3xl uppercase tracking-[3px] ">Jeff Morgan Workshops</p>
+            </div>
+            <div class="md:self-end h-28 w-2 my-5 rounded-sm  bg-white"></div>
+            <div class="flex flex-col self-start sm:self-end font-bold">
+                <p class="md:mb-1 text-8xl lg:text-9xl text-mainBlue">27-30</p>
+                <p class="self-end text-5xl lg:text-6xl text-white uppercase">may</p>
+                <div class="my-5 hidden md:block h-2 rounded-sm w-full bg-white"></div>
+            </div>
+        </div>
+    </header>
+    <main class="px-5">
+        <section
+            class="container pt-16 flex flex-wrap gap-5 justify-center sm:grid sm:grid-rows-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-rows-2 lg:grid-cols-3 xl:grid-rows-1 xl:grid-cols-4">
+            <div class="flex flex-col 
+                md:row-start-1 md:row-span-1 md:col-start-1 md:col-span-1
+                lg:col-start-1 lg:col-span-1">
+                <div class="flex">
+                    <img class="w-12 mr-4" src="./img/sun.svg" alt="">
+                    <p class="py-5 text-white tracking-[3px] uppercase">Natural Light</p>
+                </div>
+                <p class="text-gray">Learn how to take beautiful portraits with minimal equipment; how light
+                    affects
+                    your images and how to make the very best of any location.</p>
+            </div>
+            <div class="flex flex-col 
+                md:row-start-2 md:row-span-1 md:col-start-1 md:col-span-2
+                lg:row-start-1 lg:row-span-1 lg:col-start-2 lg:col-span-1">
+                <div class="flex">
+                    <img class="w-12 mr-4" src="./img/man.svg" alt="">
+                    <p class="py-5 text-white tracking-[3px] uppercase">Portrait</p>
+                </div>
+                <p class="text-gray">Learn how to take full control of lighting of your subject and the background in
+                    your images, from flattering portraits to dramatic shots.</p>
+            </div>
+            <div class="flex flex-col 
+                md:row-start-1 md:row-span-1 md:col-start-2 md:col-span-2
+                lg:row-start-2 lg:row-span-1 lg:col-start-1 lg:col-span-2
+                xl:col-start-3 xl:col-span-1 xl:row-start-1 ">
+                <div class="flex">
+                    <img class="w-12 mr-4" src="./img/lamp.svg" alt="">
+                    <p class="py-5 text-white tracking-[3px] uppercase">Studio Lightning</p>
+                </div>
+                <p class="text-gray">In the past few years the cost of studio lighting has fallen dramatically and for a
+                    very modest outlay you can set up your own home studio.</p>
+            </div>
+            <div class="flex flex-col 
+                md:row-start-2 md:row-span-1 md:col-start-3 md:col-span-1
+                lg:row-start-1 lg:row-span-1 lg:col-start-3 lg:col-span-1 xl:col-start-4 xl:col-span-1">
+                <div class="flex">
+                    <img class="w-12 mr-4" src="./img/bulb.svg" alt="">
+                    <p class="py-5 text-white tracking-[3px] uppercase">Creative</p>
+                </div>
+                <p class="text-gray">Learn how to take beautiful portraits with minimal equipment; how light affects
+                    your images and how to make the very best of any location.</p>
+            </div>
+            <div class="hidden relative lg:flex lg:border-t-2 lg:border-l-2 lg:border-mainBlue xl:hidden">
+            </div>
+        </section>
+        <section id="aboutme" class="c-section container mt-16 flex flex-col">
+            <div class="pb-16 flex flex-col items-start sm:flex-row sm:items-center text-white ">
+                <h2
+                    class="relative p-5  sm:col-start-1 sm:col-end-3 text-4xl before:content-[''] before:absolute before:top-0 before:left-0 before:bottom-0 before:border-l-4 before:border-mainBlue ">
+                    About Jeff Workshop</h2>
+                <button
+                    class="ml-5 sm:ml-0 p-[0.5rem_1.5rem] border-2 border-transparent relative rounded-full bg-mainBlue uppercase hover:bg-gradient-to-r hover:from-mainBlue hover:to-blue-600 hover:translate-x-3 hover:border-2 hover:border-blue-500 transition-[transform_color_border] duration-[0.3s] "
+                    href="#" aria-label="Read more">Read more</button>
+            </div>
+            <div class="relative grid sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 gap-5 text-gray">
+                <p
+                    class="sm:p-3 sm:col-start-2 max-w-prose sm:border-t-2 sm:border-mainBlue sm:hover:border-white transition-[border] duration-[0.3s] leading-8 md:leading-7">
+                    Jeff
+                    Morgan is a New
+                    York based
+                    photographer specializing in
+                    portraits,
+                    people and events. He has completed countless location and studio assignments for a wide range
+                    of
+                    corporate, editorial, institutional and non-profit clients.</p>
+                <p class="sm:p-3 max-w-prose sm:row-start-2 sm:col-start-1 leading-8 md:leading-7">To provide
+                    high-quality
+                    education and
+                    training in
+                    photography with
+                    Courses
+                    and
+                    Workshops
+                    designed to
+                    inspire you and help you achieve your creative goals. We strongly believe that you have the
+                    potential not only of success but also of fulfilment and greatness as creative individuals.</p>
+                <p
+                    class="sm:p-3 max-w-prose sm:row-start-3 sm:col-start-2 md:row-start-2 md:col-start-3 leading-8 md:leading-7 sm:border-b-2 sm:border-r-2 sm:border-mainBlue sm:hover:border-white transition-[border] duration-[0.3s]">
+                    At the
+                    London School of Photography, our
+                    vision is
+                    to be a trusted
+                    source in
+                    photographic education and training, understanding and responding to your needs with products
+                    and
+                    services that provide true value and bottom line results.</p>
+                <img class="hidden sm:block sm:row-start-1 sm:col-start-1 h-[300px] lg:h-[250px] w-full object-cover c-rounded"
+                    src="./img/peoplehomelessmalestreet.jpg" alt="Dirty old homeless man with beard">
+
+                <img class="hidden sm:block sm:row-start-2 sm:col-start-2 md:col-start-3 md:row-start-1 h-[300px] lg:h-[250px] w-full object-cover c-rounded"
+                    src="./img/fashiongirlsexywomen60712.jpeg" alt="Sexy young woman with curly hair">
+
+                <img class="hidden sm:block sm:row-start-3 sm:col-start-1 md:col-start-2 md:row-start-2 h-[300px] lg:h-[250px] w-full object-cover c-rounded"
+                    src="./img/pexelsphoto731503.jpeg" alt="Old thin man with beard">
+            </div>
+        </section>
+        <section id="workshop" class="c-section container mt-16 flex flex-col">
+            <div class="pb-16 flex flex-col justify-end items-end md:flex-row md:items-center text-right text-white">
+                <button
+                    class="items-start mr-5 md:mr-0 p-[0.5rem_1.3rem] border-2 border-transparent relative text-white rounded-full bg-mainBlue uppercase hover:bg-gradient-to-r hover:from-mainBlue hover:to-blue-600 hover:-translate-x-3 hover:border-2 hover:border-blue-500 transition-[transform_color_border] duration-[0.3s] order-5"
+                    href="#" aria-label="Read more">Read more</button>
+                <h2
+                    class="relative p-5 sm:col-start-1 sm:col-end-3 text-4xl before:content-[''] before:absolute before:top-0 before:right-0 before:bottom-0 before:border-l-4 before:border-mainBlue md:order-10 ">
+                    Portrait Photography Workshop</h2>
+            </div>
+            <div class="flex justify-end text-right">
+                <p class="pb-16 text-gray max-w-prose">Join us on this fantastic
+                    full day
+                    (6hrs) ACTION
+                    dog photography
+                    workshop
+                    with
+                    specialist canine
+                    photographer Mary Coe who will be our guest tutor for the day. Working with Mary's own dogs our day
+                    will be run from her home in Worthing. We will cover action photography in the wood a short walk
+                    away, followed by a fabulous a water session in the sea (with lots of running and splashing) just
+                    two minutes away before returning to review the photographs and to discuss editing.</p>
+            </div>
+            <div
+                class="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-4 lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-4 xl:grid-rows-2 gap-5">
+                <img class="h-[350px] w-full object-cover col-start-1 row-start-1 c-rounded"
+                    src="img/peopleportraitchildpoverty141651.jpeg" alt="Child with short hair and tilted head">
+                <img class="h-[350px] w-full object-cover sm:col-start-2 sm:row-start-1 c-rounded"
+                    src="img/pexelsphoto236187.jpeg" alt="Adult man with scarf and beard">
+                <div
+                    class=" p-5 flex flex-col justify-center sm:col-start-1 sm:row-start-2 lg:col-start-3 lg:row-start-1">
+                    <p class="pb-5 text-mainBlue text-7xl ">26</p>
+                    <p class=" text-gray"> This workshop is limited to just 6 people and will have a backstop date of
+                        April 7th in the event of bad weather.</p>
+                </div>
+                <img class="h-[350px] w-full object-cover sm:col-start-1 sm:col-span-2 sm:row-start-3 lg:col-start-1 lg:col-end-2 lg:row-start-2 c-rounded"
+                    src="img/pexelsphoto60778.jpeg" alt="Teenager with curly hair looking on">
+                <img class="h-full w-full object-cover sm:col-start-2 sm:row-start-2 lg:row-start-2 lg:row-end-3 lg:col-start-3 c-rounded"
+                    src="img/pexelsphoto185847.jpeg" alt="Adult man with beard">
+                <img class="h-[350px] w-full object-cover sm:col-start-1 sm:row-start-4 lg:col-start-1 lg:col-end-3 lg:row-start-3 xl:row-start-2 xl:col-start-2 xl:col-end-3 c-rounded"
+                    src="img/pexelsphoto258308.jpeg" alt="Older man with narrowed eyes">
+                <div
+                    class="hidden lg:block p-5 sm:col-start-2 sm:row-start-4 lg:col-start-3 lg:row-start-3 xl:col-start-4 xl:row-start-1 w-full self-end h-full sm:border-2 sm:border-r-mainBlue border-b-mainBlue xl:border-t-mainBlue xl:border-b-0 xl:hover:border-t-white hover:border-r-white hover:border-b-white transition-[border_color] duration-[0.3s] group">
+                    <p
+                        class="hidden lg:block pb-5 text-mainBlue text-7xl group-hover:text-white transition-[color] duration-[0.3s]">
+                        27</p>
+                    <p class="hidden lg:block text-gray ">Join our full-day Action Dog Photography Workshop
+                        with
+                        specialist photographer
+                        Mary Coe. Spend six hours capturing dogs in action, from the woods to a lively beach session.
+                        Limited to 6 participants, with a backup date of May 25th for inclement weather. Skill level 3.
+                    </p>
+                </div>
+                <div
+                    class="p-5 flex flex-col justify-center sm:col-start-2 sm:row-start-4 lg:col-start-2 lg:row-start-2 lg:row-end-3 xl:col-start-4">
+                    <p class="pb-5 text-mainBlue text-7xl">28
+                    </p>
+                    <p class=" text-gray">This workshop is limited to just 5 people and will have a backstop date of
+                        <time datetime="2023-05-25">25th May</time> in the event of bad weather (either too hot for the
+                        dogs or too wet). Skill level 3.
+                        Joining instructions and directions will be e mailed out individually near the time. This
+                        workshop runs from 10am until 4pm.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="methodology" class="c-section container mt-16 flex flex-col">
+            <div class="pb-16 flex flex-col items-start sm:flex-row sm:items-center text-white ">
+                <h2
+                    class="relative p-5 sm:col-start-1 sm:col-end-3 text-4xl before:content-[''] before:absolute before:top-0 before:left-0 before:bottom-0 before:border-l-4 before:border-mainBlue ">
+                    Unique Methodology</h2>
+                <button
+                    class="ml-5 sm:ml-0 p-[0.5rem_1.5rem] border-2 border-transparent relative rounded-full bg-mainBlue uppercase hover:bg-gradient-to-r hover:from-mainBlue hover:to-blue-600 hover:translate-x-3 hover:border-2 hover:border-blue-500 transition-[transform_color_border] duration-[0.3s] "
+                    href="#" aria-label="Read more">Read more</button>
+            </div>
+            <div
+                class="flex flex-col gap-5 relative text-gray md:grid md:grid-cols-2 md:grid-rows-3 lg:flex lg:flex-row">
+                <p class="md:col-start-1  max-w-prose leading-8 md:leading-7">
+                    Conventional educational methods often leave you having to remember the concepts you were taught or
+                    trying to figure out how to apply them. The London School of Photography method leaves you applying
+                    what you learned naturally and without effort.</p>
+                <p class="md:col-start-1 md:row-start-2 max-w-prose leading-8 md:leading-7">To provide
+                    high-quality education and training in photography with Courses and Workshops designed to inspire
+                    you and help you achieve your creative goals. We strongly believe that you have the potential not
+                    only of success but also of fulfilment and greatness as creative individuals.</p>
+                <p
+                    class="md:col-start-1 max-w-prose leading-8 md:leading-7 lg:before:absolute lg:pr-5 lg:before:right-0 lg:before:top-0 lg:before:bottom-0 lg:before:border-r-2 lg:before:border-mainBlue lg:before:duration-[0.3s] lg:before:transition-[border] lg:hover:before:border-white">
+                    Similar to anything you have already mastered, in our photography courses and workshops you learn by
+                    direct personal discovery. From this experience, a new skill is yours forever.</p>
+                <img class="lg:hidden absolute top-0 bottom-0 right-0 h-full md:h-[550px] lg:h-full w-full sm:right-0 sm:w-[200px] md:w-full md:relative md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-4 object-cover opacity-10 md:opacity-100 rounded-3xl "
+                    src="./img/pexelsphoto821748.jpeg" alt="">
+            </div>
+        </section>
+        <section class="section container relative mt-16 flex flex-col">
+            <div class="pb-16 flex flex-col justify-end items-end md:flex-row md:items-center text-right text-white">
+                <button
+                    class="items-start mr-5 md:mr-0 p-[0.5rem_1.3rem] border-2 border-transparent relative text-white rounded-full bg-mainBlue uppercase hover:bg-gradient-to-r hover:from-mainBlue hover:to-blue-600 hover:-translate-x-3 hover:border-2 hover:border-blue-500 transition-[transform_color_border] duration-[0.3s] order-5"
+                    href="#" aria-label="Read more">Read more</button>
+                <h2
+                    class="relative p-5 sm:col-start-1 sm:col-end-3 text-4xl before:content-[''] before:absolute before:top-0 before:right-0 before:bottom-0 before:border-l-4 before:border-mainBlue md:order-10 ">
+                    Theme: Gun Dog Day</h2>
+            </div>
+            <div class="flex flex-col items-end gap-5 text-right">
+                <svg class="hidden lg:block lg:absolute lg:left-10 lg:w-[250px] xl:hidden" viewBox="0 0 200 200"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#0049FF"
+                        d="M34.3,-47.6C44.7,-39.6,53.8,-30,56.7,-18.9C59.6,-7.8,56.5,4.8,52.8,17.5C49.1,30.2,44.9,43,36,52.7C27.1,62.4,13.5,68.8,2.4,65.5C-8.7,62.1,-17.3,48.9,-29.9,40.5C-42.6,32,-59.1,28.3,-64.3,19.3C-69.4,10.2,-63.2,-4.1,-54.5,-13.7C-45.9,-23.4,-35,-28.2,-25.5,-36.6C-16,-45,-8,-56.8,1.9,-59.5C11.9,-62.2,23.8,-55.6,34.3,-47.6Z"
+                        transform="translate(100 100)" />
+                    <path class="hover:fill-mainBlue/80 transition-[fill] duration-[0.3s]" fill="#0049FF"
+                        d="M43.1,-74.7C56.8,-66.9,69.3,-57,76.3,-44.3C83.4,-31.5,85,-15.7,83.5,-0.9C81.9,13.9,77.2,27.9,71.1,42.3C64.9,56.7,57.4,71.6,45.3,80.7C33.3,89.8,16.6,93.1,2.4,88.9C-11.8,84.7,-23.6,73,-34.6,63.2C-45.5,53.5,-55.7,45.8,-64,35.6C-72.4,25.4,-78.8,12.7,-79,-0.1C-79.1,-12.9,-73,-25.7,-64.9,-36.3C-56.7,-46.8,-46.6,-55,-35.5,-64.3C-24.3,-73.5,-12.2,-83.9,1.3,-86.1C14.8,-88.4,29.5,-82.5,43.1,-74.7Z"
+                        transform="translate(100 100)" />
+
+                </svg>
+                <svg class="hidden xl:block xl:absolute xl:left-20 xl:top-16 xl:w-[500px] " viewBox="0 0 200 200"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#0049FF"
+                        d="M34.3,-47.6C44.7,-39.6,53.8,-30,56.7,-18.9C59.6,-7.8,56.5,4.8,52.8,17.5C49.1,30.2,44.9,43,36,52.7C27.1,62.4,13.5,68.8,2.4,65.5C-8.7,62.1,-17.3,48.9,-29.9,40.5C-42.6,32,-59.1,28.3,-64.3,19.3C-69.4,10.2,-63.2,-4.1,-54.5,-13.7C-45.9,-23.4,-35,-28.2,-25.5,-36.6C-16,-45,-8,-56.8,1.9,-59.5C11.9,-62.2,23.8,-55.6,34.3,-47.6Z"
+                        transform="translate(100 100)" />
+                    <path class="hover:fill-mainBlue/80 transition-[fill] duration-[0.3s]" fill="#0049FF"
+                        d="M43.1,-74.7C56.8,-66.9,69.3,-57,76.3,-44.3C83.4,-31.5,85,-15.7,83.5,-0.9C81.9,13.9,77.2,27.9,71.1,42.3C64.9,56.7,57.4,71.6,45.3,80.7C33.3,89.8,16.6,93.1,2.4,88.9C-11.8,84.7,-23.6,73,-34.6,63.2C-45.5,53.5,-55.7,45.8,-64,35.6C-72.4,25.4,-78.8,12.7,-79,-0.1C-79.1,-12.9,-73,-25.7,-64.9,-36.3C-56.7,-46.8,-46.6,-55,-35.5,-64.3C-24.3,-73.5,-12.2,-83.9,1.3,-86.1C14.8,-88.4,29.5,-82.5,43.1,-74.7Z"
+                        transform="translate(100 100)" />
+                </svg>
+                <p class="text-gray max-w-prose">A dog photography workshop with specialist canine photographer
+                    Caroline Dell who will be our guest tutor for the day. Working with Caroline's own dogs our day will
+                    be based at her studio barn near Sheffield.</p>
+                <p class="text-gray max-w-prose">We will cover natural light, Off camera flash, studio work,
+                    action photography with a water session. Caro will also demo her own post-processing technique.
+                    Joining instructions and directions will be e mailed out individually near the time. This workshop
+                    runs from 10am until 4pm.</p>
+                <p class="text-gray max-w-prose">This workshop is limited to just 5 people and will have a backstop date
+                    of <time datetime="2023-09-23">23rd September</time> in the event of bad weather (either too hot for
+                    the dogs or too wet). Skill level
+                    3. Joining instructions and directions will be e mailed out individually near the time. This
+                    workshop runs from 10am until 4pm.</p>
+            </div>
+            <div class="relative lg:hidden my-8 h-[400px] w-full bg-center object-cover c-rounded bg-womanOne">
+                <p class="p-2 absolute -bottom-10 right-5 text-mainBlue text-7xl bg-stone-950 c-rounded">29
+            </div>
+        </section>
+        <section id="biography" class="c-section relative container mt-16 xl:pt-16 flex flex-col">
+            <div class="pb-16 flex flex-col items-start sm:flex-row sm:items-center text-white ">
+                <h2
+                    class="relative p-5 sm:col-start-1 sm:col-end-3 text-4xl before:content-[''] before:absolute before:top-0 before:left-0 before:bottom-0 before:border-l-4 before:border-mainBlue ">
+                    Jeff Morgan - Biography </h2>
+                <button
+                    class="ml-5 sm:ml-0 p-[0.5rem_1.5rem] border-2 border-transparent relative rounded-full bg-mainBlue uppercase hover:bg-gradient-to-r hover:from-mainBlue hover:to-blue-600 hover:translate-x-3 hover:border-2 hover:border-blue-500 transition-[transform_color_border] duration-[0.3s] z-10"
+                    href="#" aria-label="Read more">Read more</button>
+            </div>
+            <div class="flex flex-col gap-5 text-gray">
+                <p class="md:col-start-1 max-w-prose leading-8 md:leading-7">
+                    From a young age Andrés had an affinity for the arts, taking classes in painting, sculpture and
+                    music beginning at the age of six to motion graphics and 3D animation as a teenager. In 1999, he
+                    graduated top of his class from the Art Institute of Medellin with a B.A. in Advertising and decided
+                    to move to the U.S. Miami, his home for 17 years, was the place where he embarked on his photography
+                    career after working for a multi-media company.</p>
+
+                <img class="absolute right-0 bottom-0 left-0 w-full h-full md:left-auto md:w-1/2 object-cover opacity-10 rounded-lg rounded-tl-none"
+                    src="./img/pexelsphoto458497.jpeg" alt="Jeff Morgan photo">
+            </div>
+        </section>
+    </main>
+    <footer id="contact" class="c-section relative px-5 pt-16 pb-32 flex flex-col">
+        <div class="container">
+            <div class="pb-16 flex flex-col items-start text-white">
+                <h2
+                    class="relative p-5 sm:col-start-1 sm:col-end-3 text-4xl before:content-[''] before:absolute before:top-0 before:left-0 before:bottom-0 before:border-l-4 before:border-mainBlue ">
+                    Contact us</h2>
+            </div>
+            <div class="flex flex-col md:flex-row gap-5 text-gray">
+                <div class="md:px-5 sm:flex md:flex-col gap-5 md:border-l-2 border-white md:order-1">
+                    <div>
+                        <p>Jeff School of Photography</p>
+                        <p><br>The Boutique Workplace</p>
+                        <p>5 Southampton Place,</p>
+                        <p>London WC4A 2A</p>
+                    </div>
+                    <br class="sm:hidden">
+                    <div>
+                        <p>Monday to Sunday & Bank Holidays:</p>
+                        <p><a class="c-link" href="tel:00447976762156">+44 (0) 7976 762 156</a></p>
+                        <p><a class="c-link" href="mailto:jeff@info.com">Email: jeff@info.com</a></p>
+                    </div>
+                </div>
+                <form class="py-5 md:py-0 flex flex-col gap-5 w-full md:w-[50%] " action="">
+                    <input class="p-3 bg-transparent text-gray border-[1px] border-slate-200 placeholder:text-gray"
+                        type="text" placeholder="Enter your name" pattern=".{3,}"
+                        title="Please enter at least 3 characters" required>
+                    <input class="p-3 bg-transparent text-gray border-[1px] border-slate-200 placeholder:text-gray"
+                        type="rel" placeholder="Enter a phone number (000-000-000)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                        required>
+                    <input class="p-3 bg-transparent text-gray border-[1px] border-slate-200 placeholder:text-gray"
+                        type="email" placeholder="Enter a valid email address"
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+
+                    <textarea
+                        class="p-3 bg-transparent min-h-[50px] h-36 text-gray border-[1px] border-slate-200 placeholder:text-gray"
+                        name="message" id="message" placeholder="Enter your message" required></textarea>
+                    <button
+                        class="self-end p-[0.5rem_1.5rem] bg-mainBlue text-white tracking-widest uppercase rounded-full border-2 border-transparent hover:bg-gradient-to-r hover:from-mainBlue hover:to-blue-600 hover:-translate-x-3 hover:border-2 hover:border-blue-500 transition-[transform_color_border] duration-[0.3s]"
+                        type="submit" value="Submit" aria-label="Submit">Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="absolute right-0 left-0 bottom-0 py-5 bg-darkGray text-gray text-center">
+            <p>Cichy | &copy; <span class="c-footer__year"></span> Nicepage.com </p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
